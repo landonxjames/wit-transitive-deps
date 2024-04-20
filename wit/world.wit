@@ -1,0 +1,10 @@
+package component:transitive;
+
+/// An example world for the component to target.
+world example {
+    export foo:a/a;
+    export foo:b/b;
+
+    //Uncommenting this export will cause a transitive dependency issue
+    //export foo:utils/utils;
+}

@@ -1,0 +1,10 @@
+package foo:b;
+
+interface b {
+  use foo:utils/utils.{some-resource};
+
+  variant b-variant{
+    bar(some-resource)
+  }
+
+}

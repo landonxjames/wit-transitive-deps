@@ -1,0 +1,10 @@
+package foo:a;
+
+interface a-child {
+  use foo:utils/utils.{some-resource};
+
+  variant a-child-variant {
+    bar(some-resource)
+  }
+
+}

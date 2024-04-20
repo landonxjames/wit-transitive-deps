@@ -1,0 +1,8 @@
+package foo:utils;
+
+interface utils {
+
+  resource some-resource {
+    constructor();
+  }
+}

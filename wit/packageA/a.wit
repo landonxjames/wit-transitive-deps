@@ -1,0 +1,12 @@
+package foo:a;
+
+interface a {
+  use foo:utils/utils.{some-resource};
+  use a-child.{a-child-variant};
+
+  variant a-variant {
+    bar(some-resource),
+    baz(a-child-variant)
+  }
+
+}
